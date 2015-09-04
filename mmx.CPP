@@ -464,8 +464,8 @@ int APIENTRY WinMain( HINSTANCE hInst, HINSTANCE hPInst, LPSTR lpCmdLine, int nC
 		{
 			MessageBox( 
 				NULL, 
-				"┬р° яЁюЎхёёюЁ эх яюффхЁцштрхЄ MMX",
-				"╬°шсър",
+				"Ваш процессор не поддерживает MMX",
+				"Ошибка",
 				MB_OK | MB_ICONERROR
 			);
 			return FALSE;
